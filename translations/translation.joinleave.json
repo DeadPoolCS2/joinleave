@@ -1,0 +1,26 @@
+{
+    "join.game": {
+        "en": "{PREFIX} Player {green}{NAME}{default} connected to server. ({green}{CITY}, {COUNTRY}{default})",
+        "ro": "{PREFIX} Jucătorul {green}{NAME}{default} s-a conectat pe server. ({green}{CITY}, {COUNTRY}{default})"
+    },
+    "join.console": {
+        "en": "Player {green}{NAME}{default} connected to server. ({green}{IP}, {CITY}, {COUNTRY}{default})",
+        "ro": "Jucătorul {green}{NAME}{default} s-a conectat pe server. ({green}{IP}, {CITY}, {COUNTRY}{default})"
+    },
+    "join.log": {
+        "en": "Player {NAME} connected to server. ({IP}, {CITY}, {COUNTRY})",
+        "ro": "Jucătorul {NAME} s-a conectat pe server. ({IP}, {CITY}, {COUNTRY})"
+    },
+    "leave.game": {
+        "en": "{PREFIX} Player {red}{NAME}{default} disconnected from the server. ({red}{CITY}, {COUNTRY}{default})",
+        "ro": "{PREFIX} Jucătorul {red}{NAME}{default} s-a deconectat de pe server. ({red}{CITY}, {COUNTRY}{default})"
+    },
+    "leave.console": {
+        "en": "Player {red}{NAME}{default} disconnected from the server. ({red}{IP}, {CITY}, {COUNTRY}{default})",
+        "ro": "Jucătorul {red}{NAME}{default} s-a deconectat de pe server. ({red}{IP}, {CITY}, {COUNTRY}{default})"
+    },
+    "leave.log": {
+        "en": "Player {NAME} disconnected from the server. ({IP}, {CITY}, {COUNTRY})",
+        "ro": "Jucătorul {NAME} s-a deconectat de pe server. ({IP}, {CITY}, {COUNTRY})"
+    }
+}
