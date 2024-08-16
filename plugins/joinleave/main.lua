@@ -2,7 +2,7 @@ AddEventHandler("OnClientDisconnect", function(event, playerid)
 	local player = GetPlayer(playerid)
     if not player then return EventResult.Continue end
     if player:IsFakeClient() then return EventResult.Continue end
-        
+    if not player:CBasePlayerController():IsValid() then return end    
     local name = player:CBasePlayerController().PlayerName
     local ip = player:GetIPAddress()
         
@@ -25,7 +25,7 @@ AddEventHandler("OnPlayerConnectFull", function(event)
 	local player = GetPlayer(playerid)
     if not player then return EventResult.Continue end
     if player:IsFakeClient() then return EventResult.Continue end
-        
+    if not player:CBasePlayerController():IsValid() then return end    
     local name = player:CBasePlayerController().PlayerName
     local ip = player:GetIPAddress()
         
