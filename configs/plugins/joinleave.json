@@ -1,5 +1,7 @@
 {
     "log": true,
     "console": true,
-	"prefix": "[{lime}Swiftly{default}]"
+    "prefix": "{darkred}[OLD]{default}",
+    "connect_sound": "sounds/buttons/blip1.vsnd_c",
+    "disconnect_sound": "sounds/player/taunt_clap_01.vsnd_c"
 }
